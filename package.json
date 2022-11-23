@@ -26,5 +26,8 @@
     "nodemon": "^2.0.15",
     "npm": "^8.3.0",
     "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
   }
 }
