@@ -1,8 +1,8 @@
-const users = "/users";
-const interviews = "/interviews";
-const updateInterview = "/interviews/update";
+const users = "https://interview-scheduler-task.onrender.com/users";
+const interviews = "https://interview-scheduler-task.onrender.com/interviews";
+const updateInterview = "https://interview-scheduler-task.onrender.com/interviews/update";
 // const deleteInterview = "/interviews/delete";
-const createInt = "/interviews";
+const createInt = "https://interview-scheduler-task.onrender.com/interviews";
 
 module.exports = {
   users,
