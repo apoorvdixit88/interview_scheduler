@@ -1,9 +1,8 @@
 const mongoose = require('mongoose')
 require('dotenv').config();
-//console.log(process.env.MONGO_URL);
 
 try{
-    mongoose.connect(process.env.MONGO_URL  || "mongodb+srv://Apoorv:Apoorv1!@cluster0.3eeqlsr.mongodb.net/?retryWrites=true&w=majority" , 
+    mongoose.connect(process.env.MONGO_URL  || process.env.MONGO_URL , 
     {
         useNewUrlParser: true,
         useCreateIndex: true,
